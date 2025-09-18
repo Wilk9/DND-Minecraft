@@ -1,0 +1,1 @@
+Longsword: /give @p minecraft:netherite_sword[minecraft:custom_model_data={strings:["longsword"]},minecraft:custom_name=Longsword]
