@@ -1,1 +1,2 @@
 Longsword: /give @p minecraft:netherite_sword[minecraft:custom_model_data={strings:["longsword"]},minecraft:custom_name=Longsword]
+Club     : /give @p minecraft:netherite_sword[minecraft:custom_model_data={strings:["club"]},minecraft:custom_name=Club]
