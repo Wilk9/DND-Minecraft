@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "swords:item/long_sword"
+        "model": "weapons:item/club"
     }
 }

@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "swords:item/long_sword",
-		"2_0": "swords:item/long_sword"
+		"particle": "weapons:item/long_sword",
+		"2_0": "weapons:item/long_sword"
 	},
 	"elements": [
 		{

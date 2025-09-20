@@ -6,10 +6,17 @@
       {
         "when": "longsword",
         "model": {
-            "type": "minecraft:model",
-            "model": "swords:item/long_sword"
-          }
+          "type": "minecraft:model",
+          "model": "weapons:item/long_sword"
         }
+      },
+      {
+        "when": "club",
+        "model": {
+          "type": "minecraft:model",
+          "model": "weapons:item/club"
+        }
+      }
     ],
     "fallback": {
       "type": "minecraft:model",
