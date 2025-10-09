@@ -4,16 +4,16 @@
     "property": "minecraft:custom_model_data",
     "cases": [
       {
-        "when": "longsword",
+        "when": "club",
         "model": {
           "type": "minecraft:model",
-          "model": "weapons:item/long_sword"
+          "model": "weapons:item/club"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/netherite_sword"
+      "model": "minecraft:item/netherite_axe"
     }
   }
 }
