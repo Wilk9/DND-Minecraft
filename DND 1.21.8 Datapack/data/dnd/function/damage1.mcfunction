@@ -1,1 +1,1 @@
-say Custom Attack with 1 damage!
+tell @s Attacked with 1 damage!

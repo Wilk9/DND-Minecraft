@@ -10,6 +10,9 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
+                  "components": {
+                    "minecraft:custom_model_data": {"strings":["club"]}
+                  },
                   "count": {
                     "min": 1
                   },
