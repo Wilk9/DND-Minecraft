@@ -13,7 +13,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/netherite_axe"
+      "model": "minecraft:item/stick"
     }
   }
 }

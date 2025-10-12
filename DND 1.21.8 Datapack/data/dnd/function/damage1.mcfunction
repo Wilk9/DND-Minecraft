@@ -1,0 +1,1 @@
+say Custom Attack with 1 damage!
