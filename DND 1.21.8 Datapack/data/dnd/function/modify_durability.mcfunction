@@ -7,7 +7,4 @@ execute store result score @s durability run data get entity @s SelectedItem.com
 scoreboard players add @s durability 1
 execute store result storage yourstorage durability int 1 run scoreboard players get @s durability
 
-###execute run function datapack:mainhand with storage yourstorage
-
-### datapack:mainhand
 $item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:damage":$(durability)}}
