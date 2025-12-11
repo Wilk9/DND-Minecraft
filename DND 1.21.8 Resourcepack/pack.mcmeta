@@ -2,6 +2,6 @@
   "pack": {
     "description": "D&D",
     "min_format": [66, 0],
-    "max_format": [74, 0]
+    "max_format": [80, 0]
   }
 }

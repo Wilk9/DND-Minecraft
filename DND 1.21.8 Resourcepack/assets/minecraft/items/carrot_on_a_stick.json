@@ -9,11 +9,18 @@
           "type": "minecraft:model",
           "model": "weapons:item/club"
         }
+      },
+      {
+        "when": "long_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "weapons:item/long_sword"
+        }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/stick"
+      "model": "minecraft:item/carrot_on_a_stick"
     }
   }
 }
