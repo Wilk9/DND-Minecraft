@@ -1,1 +1,1 @@
-tell @s Attacked with 1 damage!
+tellraw @s "Attacked with 1 damage!"

@@ -1,10 +1,3 @@
-scoreboard objectives add durability dummy
+$item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:damage":$(value)}}
 
-scoreboard players set @s durability 0
-
-execute store result score @s durability run data get entity @s SelectedItem.components."minecraft:damage"
-
-scoreboard players add @s durability 1
-execute store result storage yourstorage durability int 1 run scoreboard players get @s durability
-
-$item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:damage":$(durability)}}
+execute as @s if items entity @s weapon *[minecraft:damage=5, minecraft:custom_model_data={"strings":["club"]}] run function dnd:handle_broken_item

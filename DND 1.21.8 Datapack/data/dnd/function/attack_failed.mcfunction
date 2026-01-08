@@ -1,1 +1,1 @@
-tell @s Attack failed!
+tellraw @s "Attack failed!"
